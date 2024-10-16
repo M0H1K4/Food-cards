@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+  background-color: #d8d8d8;
+  font-family: "DM Serif Display", serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.item1 {
+  background-color: white;
+  width: 360px;
+  height: 528px;
+  gap: 0px;
+  border-radius: 16px 16px 0px 0px;
+}
+.item2 {
+  background-color: white;
+  width: 360px;
+  height: 528px;
+  gap: 0px;
+  border-radius: 16px 16px 0px 0px;
+}
+.item3 {
+  background-color: white;
+  width: 360px;
+  height: 528px;
+  gap: 0px;
+  border-radius: 16px 16px 0px 0px;
+}
+img {
+  border-radius: 16px 16px 0px 0px;
+}
+.container2 {
+  display: flex;
+  gap: 40px;
+}
+.container3 {
+  display: flex;
+  gap: 60px;
+}
+button {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(64, 255, 0);
+}
